@@ -7,10 +7,10 @@
 //
 
 import UIKit
-import SimpleAnimation
-import CoreBluetooth
 import Foundation
 import CoreMotion
+import CoreBluetooth
+import SimpleAnimation
 
 class HomeViewController: UIViewController {
     // MARK: properties

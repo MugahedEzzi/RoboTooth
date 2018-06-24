@@ -132,13 +132,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Wch-nu-9Qd">
-                                        <rect key="frame" x="288" y="15" width="280" height="140"/>
+                                        <rect key="frame" x="288" y="0.0" width="280" height="170"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="-35" translatesAutoresizingMaskIntoConstraints="NO" id="JXQ-w5-fFZ">
-                                                <rect key="frame" x="70" y="0.0" width="140" height="140"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="-20" translatesAutoresizingMaskIntoConstraints="NO" id="JXQ-w5-fFZ">
+                                                <rect key="frame" x="55" y="0.0" width="170" height="170"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="me7-TH-0wy">
-                                                        <rect key="frame" x="0.0" y="35" width="70" height="70"/>
+                                                        <rect key="frame" x="0.0" y="50" width="70" height="70"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfr-zP-304">
                                                                 <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
@@ -146,7 +146,7 @@
                                                                     <constraint firstAttribute="width" constant="70" id="1wr-8o-ySv"/>
                                                                     <constraint firstAttribute="height" constant="70" id="uYH-tS-OWM"/>
                                                                 </constraints>
-                                                                <state key="normal" image="left-not-active">
+                                                                <state key="normal" image="x-active">
                                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
@@ -156,8 +156,8 @@
                                                             </button>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Kv7-GK-KXd">
-                                                        <rect key="frame" x="35" y="0.0" width="70" height="140"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Kv7-GK-KXd">
+                                                        <rect key="frame" x="50" y="0.0" width="70" height="170"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVd-FH-CLv">
                                                                 <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
@@ -165,19 +165,19 @@
                                                                     <constraint firstAttribute="height" constant="70" id="JW5-2e-Hfl"/>
                                                                     <constraint firstAttribute="width" constant="70" id="PvE-FQ-chu"/>
                                                                 </constraints>
-                                                                <state key="normal" image="top-not-active"/>
+                                                                <state key="normal" image="y-active"/>
                                                                 <connections>
                                                                     <action selector="forwardAction:" destination="Yht-6t-kKP" eventType="touchDown" id="PJ9-Wi-ZGw"/>
                                                                     <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="oQG-A5-jWL"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A7-Oq-yfH">
-                                                                <rect key="frame" x="0.0" y="70" width="70" height="70"/>
+                                                                <rect key="frame" x="0.0" y="100" width="70" height="70"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="70" id="BgF-wx-Yfn"/>
                                                                     <constraint firstAttribute="height" constant="70" id="jI7-eF-JC8"/>
                                                                 </constraints>
-                                                                <state key="normal" image="bottom-not-active">
+                                                                <state key="normal" image="a-active">
                                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
@@ -188,7 +188,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="dm8-Iu-le5">
-                                                        <rect key="frame" x="70" y="35" width="70" height="70"/>
+                                                        <rect key="frame" x="100" y="50" width="70" height="70"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1h-jz-Nfo">
                                                                 <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
@@ -196,7 +196,7 @@
                                                                     <constraint firstAttribute="width" constant="70" id="FyA-FU-SlQ"/>
                                                                     <constraint firstAttribute="height" constant="70" id="y6o-A8-mnW"/>
                                                                 </constraints>
-                                                                <state key="normal" image="right-not-active">
+                                                                <state key="normal" image="b-active">
                                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
@@ -212,6 +212,12 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bar" translatesAutoresizingMaskIntoConstraints="NO" id="nc5-IF-YEq">
+                                <rect key="frame" x="0.0" y="311" width="568" height="9"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="9" id="a3G-PM-ElW"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -222,7 +228,10 @@
                             <constraint firstItem="Ed8-H4-M1y" firstAttribute="trailing" secondItem="PAw-6e-oli" secondAttribute="trailing" constant="20" id="Cqn-QY-M5l"/>
                             <constraint firstItem="g2d-nh-YdE" firstAttribute="leading" secondItem="Ed8-H4-M1y" secondAttribute="leading" id="I1L-7M-RFf"/>
                             <constraint firstItem="Ed8-H4-M1y" firstAttribute="trailing" secondItem="g2d-nh-YdE" secondAttribute="trailing" id="JWF-a5-bco"/>
+                            <constraint firstItem="Ed8-H4-M1y" firstAttribute="trailing" secondItem="nc5-IF-YEq" secondAttribute="trailing" id="LS1-Pu-7cj"/>
+                            <constraint firstItem="Ed8-H4-M1y" firstAttribute="bottom" secondItem="nc5-IF-YEq" secondAttribute="bottom" id="Mah-no-VIF"/>
                             <constraint firstItem="PAw-6e-oli" firstAttribute="top" secondItem="Ed8-H4-M1y" secondAttribute="top" constant="20" id="bfh-Y7-Ku5"/>
+                            <constraint firstItem="nc5-IF-YEq" firstAttribute="leading" secondItem="Ed8-H4-M1y" secondAttribute="leading" id="gYC-ba-0UO"/>
                             <constraint firstItem="O9W-CF-i1U" firstAttribute="centerY" secondItem="Ed8-H4-M1y" secondAttribute="centerY" id="jGa-tZ-K7g"/>
                             <constraint firstItem="O9W-CF-i1U" firstAttribute="centerX" secondItem="Ed8-H4-M1y" secondAttribute="centerX" id="r8Z-b6-K7H"/>
                             <constraint firstItem="O9W-CF-i1U" firstAttribute="width" secondItem="hRg-C7-IgJ" secondAttribute="width" id="upX-et-zZ7"/>
@@ -308,7 +317,7 @@
                     <viewLayoutGuide key="safeArea" id="PK2-TB-1NZ"/>
                 </stackView>
             </objects>
-            <point key="canvasLocation" x="33.733133433283363" y="704.79999999999995"/>
+            <point key="canvasLocation" x="32.74647887323944" y="703.125"/>
         </scene>
         <!--Search BLE-->
         <scene sceneID="5Da-XR-S01">
@@ -431,7 +440,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="a-active" width="116" height="116"/>
+        <image name="b-active" width="116" height="116"/>
         <image name="background" width="812" height="375"/>
+        <image name="bar" width="812" height="5"/>
         <image name="bottom-not-active" width="117" height="117"/>
         <image name="darkOverlay" width="812" height="375"/>
         <image name="disconnect" width="38" height="38"/>
@@ -440,5 +452,7 @@
         <image name="robot" width="44" height="62"/>
         <image name="search" width="40" height="40"/>
         <image name="top-not-active" width="117" height="117"/>
+        <image name="x-active" width="116" height="116"/>
+        <image name="y-active" width="116" height="116"/>
     </resources>
 </document>
