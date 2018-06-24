@@ -14,44 +14,48 @@ import SimpleAnimation
 
 class HomeViewController: UIViewController {
     // MARK: properties
-    private var accelerometer: Accelerometer!
     private var isReady: Bool = false {
         didSet{
             guard isReady else {
-                bombButtonOutlet.isEnabled = true
                 rightButtonOutlet.isEnabled = true
                 topButtonOutlet.isEnabled = true
                 bottomButtonOutlet.isEnabled = true
                 leftButtonOutlet.isEnabled = true
-                accelerometer.start()
+                
+                yButtonOutlet.isEnabled = true
+                bButtonOutlet.isEnabled = true
+                aButtonOutlet.isEnabled = true
+                xButtonOutlet.isEnabled = true
                 return
             }
             
-            bombButtonOutlet.isEnabled = false
             rightButtonOutlet.isEnabled = false
             topButtonOutlet.isEnabled = false
             bottomButtonOutlet.isEnabled = false
             leftButtonOutlet.isEnabled = false
-            accelerometer.stop()
+            
+            yButtonOutlet.isEnabled = false
+            bButtonOutlet.isEnabled = false
+            aButtonOutlet.isEnabled = false
+            xButtonOutlet.isEnabled = false
         }
     }
     
     // MARK: outlines
-    @IBOutlet weak var bombButtonOutlet: UIButton!
     @IBOutlet weak var rightButtonOutlet: UIButton!
     @IBOutlet weak var topButtonOutlet: UIButton!
     @IBOutlet weak var bottomButtonOutlet: UIButton!
     @IBOutlet weak var leftButtonOutlet: UIButton!
-    @IBOutlet weak var angleLabelOutlet: UILabel!
+    @IBOutlet weak var yButtonOutlet: UIButton!
+    @IBOutlet weak var bButtonOutlet: UIButton!
+    @IBOutlet weak var aButtonOutlet: UIButton!
+    @IBOutlet weak var xButtonOutlet: UIButton!
     
     //MARK: - life cicle
     override func viewDidLoad() {
         super.viewDidLoad()
         serial = BLE(delegate: self)
         serial.writeType = .withoutResponse
-        accelerometer = Accelerometer(delegate: self)
-        accelerometer.updateRate = 1.0
-        accelerometer.start()
         isReady = false
     }
     
@@ -101,18 +105,30 @@ class HomeViewController: UIViewController {
         guard serial.isReady else { return }
         serial.sendBytesToDevice(bytes: [100])
     }
-}
-
-extension HomeViewController: AccelerometerDelegate {
-    func didUpdateAccelerometerValues(values: AccelerometerValues) {
-        let xAxis = UInt8(abs(values.x))
-        if xAxis > 20 && xAxis < 70{
-            angleLabelOutlet.text = "Angle: \(xAxis)º"
-            
-            if(serial.isReady) {
-                serial.sendBytesToDevice(bytes: [xAxis])
-            }
-        }
+    
+    
+    @IBAction func xAction(_ sender: UIButton) {
+        guard serial.isReady else { return }
+        sender.popIn()
+        serial.sendBytesToDevice(bytes: [75])
+    }
+    
+    @IBAction func aAction(_ sender: UIButton) {
+        guard serial.isReady else { return }
+        sender.popIn()
+        serial.sendBytesToDevice(bytes: [75])
+    }
+    
+    @IBAction func bAction(_ sender: UIButton) {
+        guard serial.isReady else { return }
+        sender.popIn()
+        serial.sendBytesToDevice(bytes: [75])
+    }
+    
+    @IBAction func yAction(_ sender: UIButton) {
+        guard serial.isReady else { return }
+        sender.popIn()
+        serial.sendBytesToDevice(bytes: [75])
     }
 }
 

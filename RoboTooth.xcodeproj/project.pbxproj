@@ -16,7 +16,6 @@
 		646B79E120DFA2BF00B36823 /* BLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79D920DFA2BF00B36823 /* BLE.swift */; };
 		646B79E220DFA2BF00B36823 /* BLETableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79DA20DFA2BF00B36823 /* BLETableViewController.swift */; };
 		646B79E320DFA2BF00B36823 /* BLECell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79DB20DFA2BF00B36823 /* BLECell.swift */; };
-		646B79E420DFA2BF00B36823 /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79DC20DFA2BF00B36823 /* Accelerometer.swift */; };
 		646B79E520DFA2BF00B36823 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79DD20DFA2BF00B36823 /* Globals.swift */; };
 		646B79E620DFA2BF00B36823 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79DE20DFA2BF00B36823 /* Extensions.swift */; };
 		F0B37FABE1E24D0AFB4F4977 /* Pods_RoboTooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89503174255C5227F82DF45 /* Pods_RoboTooth.framework */; };
@@ -34,7 +33,6 @@
 		646B79D920DFA2BF00B36823 /* BLE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLE.swift; sourceTree = "<group>"; };
 		646B79DA20DFA2BF00B36823 /* BLETableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLETableViewController.swift; sourceTree = "<group>"; };
 		646B79DB20DFA2BF00B36823 /* BLECell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLECell.swift; sourceTree = "<group>"; };
-		646B79DC20DFA2BF00B36823 /* Accelerometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accelerometer.swift; sourceTree = "<group>"; };
 		646B79DD20DFA2BF00B36823 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		646B79DE20DFA2BF00B36823 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B89503174255C5227F82DF45 /* Pods_RoboTooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoboTooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,21 +73,60 @@
 		646B79C420DFA24600B36823 /* RoboTooth */ = {
 			isa = PBXGroup;
 			children = (
-				646B79C520DFA24600B36823 /* AppDelegate.swift */,
-				646B79DC20DFA2BF00B36823 /* Accelerometer.swift */,
-				646B79D820DFA2BF00B36823 /* BaseCell.swift */,
-				646B79D920DFA2BF00B36823 /* BLE.swift */,
-				646B79DB20DFA2BF00B36823 /* BLECell.swift */,
-				646B79DA20DFA2BF00B36823 /* BLETableViewController.swift */,
-				646B79DE20DFA2BF00B36823 /* Extensions.swift */,
-				646B79DD20DFA2BF00B36823 /* Globals.swift */,
-				646B79D720DFA2BE00B36823 /* HomeViewController.swift */,
+				64AB6F3820DFAAF000107DC9 /* App */,
+				64AB6F3920DFAAFC00107DC9 /* Models */,
+				64AB6F3A20DFAB3D00107DC9 /* Views */,
+				64AB6F3B20DFAB4900107DC9 /* Controllers */,
+				64AB6F3C20DFAB7500107DC9 /* Helpers */,
 				646B79C920DFA24600B36823 /* Main.storyboard */,
 				646B79CC20DFA24600B36823 /* Assets.xcassets */,
 				646B79CE20DFA24600B36823 /* LaunchScreen.storyboard */,
 				646B79D120DFA24600B36823 /* Info.plist */,
 			);
 			path = RoboTooth;
+			sourceTree = "<group>";
+		};
+		64AB6F3820DFAAF000107DC9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				646B79C520DFA24600B36823 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		64AB6F3920DFAAFC00107DC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				646B79D920DFA2BF00B36823 /* BLE.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64AB6F3A20DFAB3D00107DC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				646B79D820DFA2BF00B36823 /* BaseCell.swift */,
+				646B79DB20DFA2BF00B36823 /* BLECell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64AB6F3B20DFAB4900107DC9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				646B79DA20DFA2BF00B36823 /* BLETableViewController.swift */,
+				646B79D720DFA2BE00B36823 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		64AB6F3C20DFAB7500107DC9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				646B79DE20DFA2BF00B36823 /* Extensions.swift */,
+				646B79DD20DFA2BF00B36823 /* Globals.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		A816E675915F9D82FF1BE010 /* Frameworks */ = {
@@ -244,7 +281,6 @@
 				646B79DF20DFA2BF00B36823 /* HomeViewController.swift in Sources */,
 				646B79E220DFA2BF00B36823 /* BLETableViewController.swift in Sources */,
 				646B79E520DFA2BF00B36823 /* Globals.swift in Sources */,
-				646B79E420DFA2BF00B36823 /* Accelerometer.swift in Sources */,
 				646B79E120DFA2BF00B36823 /* BLE.swift in Sources */,
 				646B79E320DFA2BF00B36823 /* BLECell.swift in Sources */,
 			);
@@ -391,7 +427,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.binarytorch.RoboTooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -407,7 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.binarytorch.RoboTooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

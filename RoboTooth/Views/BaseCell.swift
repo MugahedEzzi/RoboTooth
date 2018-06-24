@@ -4,8 +4,8 @@
 //
 //
 
-import Foundation
 import UIKit
+import Foundation
 
 class BaseCell: UITableViewCell{
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
@@ -18,11 +18,7 @@ class BaseCell: UITableViewCell{
         super.init(coder: aDecoder)
     }
     
-    func setupView(){
-        
-    }
+    func setupView() {}
     
-    func setupConstraints(){
-        
-    }
+    func setupConstraints() {}
 }

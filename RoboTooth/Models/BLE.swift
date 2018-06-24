@@ -1,8 +1,8 @@
 //
 //  BLE.swift
-//  ATEC BOT
+//  RoboTooth
 //
-//  Created by Saleem Hadad on 28/01/2017.
+//  Created by Saleem Hadad on 24/06/2018.
 //  Copyright © 2017 Saleem Hadad. All rights reserved.
 //
 

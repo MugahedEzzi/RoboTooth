@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
@@ -19,7 +18,7 @@
         <!--Home View Controller-->
         <scene sceneID="Rap-YX-DT4">
             <objects>
-                <viewController id="Yht-6t-kKP" customClass="HomeViewController" customModule="Bomber" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yht-6t-kKP" customClass="HomeViewController" customModule="RoboTooth" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hRg-C7-IgJ">
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -35,7 +34,7 @@
                                 </constraints>
                                 <state key="normal" image="disconnect"/>
                                 <connections>
-                                    <action selector="disconnectBLE:" destination="Yht-6t-kKP" eventType="touchUpInside" id="emT-DY-BRP"/>
+                                    <action selector="disconnectBLE:" destination="Yht-6t-kKP" eventType="touchUpInside" id="kGb-1r-mf3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o0S-NA-jBX">
@@ -71,8 +70,8 @@
                                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
-                                                                    <action selector="leftAction:" destination="Yht-6t-kKP" eventType="touchDown" id="riR-Ft-XDy"/>
-                                                                    <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="Rss-5t-flf"/>
+                                                                    <action selector="leftAction:" destination="Yht-6t-kKP" eventType="touchDown" id="uLq-QQ-tqD"/>
+                                                                    <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="e0T-sY-FUQ"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -88,8 +87,8 @@
                                                                 </constraints>
                                                                 <state key="normal" image="top-not-active"/>
                                                                 <connections>
-                                                                    <action selector="forwardAction:" destination="Yht-6t-kKP" eventType="touchDown" id="Y6Y-AP-ona"/>
-                                                                    <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="SH8-kX-UwP"/>
+                                                                    <action selector="forwardAction:" destination="Yht-6t-kKP" eventType="touchDown" id="AQY-PQ-Y7v"/>
+                                                                    <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="9YH-ri-FOC"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wL6-FB-iR7">
@@ -102,8 +101,8 @@
                                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
-                                                                    <action selector="backwardAction:" destination="Yht-6t-kKP" eventType="touchDown" id="ye3-cr-I7a"/>
-                                                                    <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="Vh4-HV-5ca"/>
+                                                                    <action selector="backwardAction:" destination="Yht-6t-kKP" eventType="touchDown" id="Rdg-bU-peJ"/>
+                                                                    <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="y0z-DL-N0t"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -121,8 +120,8 @@
                                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
-                                                                    <action selector="rightAction:" destination="Yht-6t-kKP" eventType="touchDown" id="QOU-vT-Jqf"/>
-                                                                    <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="TNO-py-Vhp"/>
+                                                                    <action selector="rightAction:" destination="Yht-6t-kKP" eventType="touchDown" id="yJt-xS-ZXo"/>
+                                                                    <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="lc6-ml-jdH"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -150,8 +149,7 @@
                                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
-                                                                    <action selector="leftAction:" destination="Yht-6t-kKP" eventType="touchDown" id="ycq-DJ-TEV"/>
-                                                                    <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="VFp-po-eGS"/>
+                                                                    <action selector="xAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="60e-Bl-YZe"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -167,8 +165,7 @@
                                                                 </constraints>
                                                                 <state key="normal" image="y-active"/>
                                                                 <connections>
-                                                                    <action selector="forwardAction:" destination="Yht-6t-kKP" eventType="touchDown" id="PJ9-Wi-ZGw"/>
-                                                                    <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="oQG-A5-jWL"/>
+                                                                    <action selector="yAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="GRM-ci-lDA"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A7-Oq-yfH">
@@ -181,8 +178,7 @@
                                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
-                                                                    <action selector="backwardAction:" destination="Yht-6t-kKP" eventType="touchDown" id="zGK-Iu-f6P"/>
-                                                                    <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="Wnk-rF-zov"/>
+                                                                    <action selector="aAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="bx8-LS-g4p"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -200,8 +196,7 @@
                                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
-                                                                    <action selector="rightAction:" destination="Yht-6t-kKP" eventType="touchDown" id="GN1-aP-OHh"/>
-                                                                    <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="mE5-Ig-u1s"/>
+                                                                    <action selector="bAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="Jfg-4N-Mn6"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -238,6 +233,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ed8-H4-M1y"/>
                     </view>
+                    <connections>
+                        <outlet property="aButtonOutlet" destination="8A7-Oq-yfH" id="phy-sH-tho"/>
+                        <outlet property="bButtonOutlet" destination="Y1h-jz-Nfo" id="bdz-Ge-Q2L"/>
+                        <outlet property="bottomButtonOutlet" destination="wL6-FB-iR7" id="lHo-Rs-0fX"/>
+                        <outlet property="leftButtonOutlet" destination="vF6-r4-h4F" id="BW5-aS-rB3"/>
+                        <outlet property="rightButtonOutlet" destination="Ouv-Sp-DUK" id="Djc-g9-Ou7"/>
+                        <outlet property="topButtonOutlet" destination="CaK-7f-Dv3" id="f0l-86-xhb"/>
+                        <outlet property="xButtonOutlet" destination="Nfr-zP-304" id="yye-QU-nJo"/>
+                        <outlet property="yButtonOutlet" destination="oVd-FH-CLv" id="8lL-jL-lgu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lHU-AL-OQR" sceneMemberID="firstResponder"/>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="-35" id="uMp-fa-F2L">
@@ -256,10 +261,6 @@
                                     <state key="normal" image="left-not-active">
                                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </state>
-                                    <connections>
-                                        <action selector="leftAction:" destination="Yht-6t-kKP" eventType="touchDown" id="zx5-38-OFa"/>
-                                        <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="Kp7-bl-Y04"/>
-                                    </connections>
                                 </button>
                             </subviews>
                         </stackView>
@@ -273,10 +274,6 @@
                                         <constraint firstAttribute="height" constant="70" id="zdS-jT-faO"/>
                                     </constraints>
                                     <state key="normal" image="top-not-active"/>
-                                    <connections>
-                                        <action selector="forwardAction:" destination="Yht-6t-kKP" eventType="touchDown" id="1Xq-oI-5Ku"/>
-                                        <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="ZKH-Jw-gQj"/>
-                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ZN-3b-WzU">
                                     <rect key="frame" x="0.0" y="70" width="70" height="70"/>
@@ -287,10 +284,6 @@
                                     <state key="normal" image="bottom-not-active">
                                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </state>
-                                    <connections>
-                                        <action selector="backwardAction:" destination="Yht-6t-kKP" eventType="touchDown" id="OVR-RL-6iI"/>
-                                        <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="oiL-pc-dgy"/>
-                                    </connections>
                                 </button>
                             </subviews>
                         </stackView>
@@ -306,10 +299,6 @@
                                     <state key="normal" image="right-not-active">
                                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </state>
-                                    <connections>
-                                        <action selector="rightAction:" destination="Yht-6t-kKP" eventType="touchDown" id="FnF-bY-K5M"/>
-                                        <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="8S9-Vd-KAR"/>
-                                    </connections>
                                 </button>
                             </subviews>
                         </stackView>
@@ -322,7 +311,7 @@
         <!--Search BLE-->
         <scene sceneID="5Da-XR-S01">
             <objects>
-                <viewController title="Search BLE" id="qGw-YO-Y9O" customClass="BLETableViewController" customModule="Bomber" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Search BLE" id="qGw-YO-Y9O" customClass="BLETableViewController" customModule="RoboTooth" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FgN-LI-PcW"/>
                         <viewControllerLayoutGuide type="bottom" id="Rsv-Ti-h81"/>
@@ -339,7 +328,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BLECell" rowHeight="150" id="66A-yh-0SN" customClass="BLECell" customModule="Bomber">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BLECell" rowHeight="150" id="66A-yh-0SN" customClass="BLECell" customModule="Bomber">
                                         <rect key="frame" x="0.0" y="28" width="568" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="66A-yh-0SN" id="Rvi-9U-rTL">

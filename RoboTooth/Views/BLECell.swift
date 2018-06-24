@@ -30,6 +30,6 @@ class BLECell: UITableViewCell {
         self.containerView.backgroundColor = UIColor.lightBlue()
         self.containerView.layer.cornerRadius = 5
         self.containerView.clipsToBounds = true
-        self.BLEImage.image = UIImage(asset: .robot)
+        self.BLEImage.image = #imageLiteral(resourceName: "robot")
     }
 }
