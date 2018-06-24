@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Bomber
-//
-//  Created by Saleem Hadad on 13/01/2018.
-//  Copyright © 2018 Binary Torch. All rights reserved.
-//
-
 import UIKit
 import Foundation
 import CoreMotion

@@ -1,9 +1,3 @@
-//
-//  BaseCell.swift
-//  FlashCard
-//
-//
-
 import UIKit
 import Foundation
 

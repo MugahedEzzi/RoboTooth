@@ -1,12 +1,9 @@
-
-
 import UIKit
 import Foundation
 import QuartzCore
 
-
 //MARK: - UIView
-public extension UIView{
+public extension UIView {
     ///Add custom constraints using custom format to multiable views.
     func addConstraintsWithFormatToMuliableViews(_ format:String, views:UIView...) {
         var viewsDictionary = [String:AnyObject]()

@@ -1,11 +1,3 @@
-//
-//  BLE.swift
-//  RoboTooth
-//
-//  Created by Saleem Hadad on 24/06/2018.
-//  Copyright © 2017 Saleem Hadad. All rights reserved.
-//
-
 import Foundation
 import CoreBluetooth
 
