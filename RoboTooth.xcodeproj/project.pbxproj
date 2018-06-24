@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		646B79C620DFA24600B36823 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79C520DFA24600B36823 /* AppDelegate.swift */; };
-		646B79C820DFA24600B36823 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79C720DFA24600B36823 /* ViewController.swift */; };
 		646B79CB20DFA24600B36823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646B79C920DFA24600B36823 /* Main.storyboard */; };
 		646B79CD20DFA24600B36823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646B79CC20DFA24600B36823 /* Assets.xcassets */; };
 		646B79D020DFA24600B36823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646B79CE20DFA24600B36823 /* LaunchScreen.storyboard */; };
+		646B79DF20DFA2BF00B36823 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79D720DFA2BE00B36823 /* HomeViewController.swift */; };
+		646B79E020DFA2BF00B36823 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79D820DFA2BF00B36823 /* BaseCell.swift */; };
+		646B79E120DFA2BF00B36823 /* BLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79D920DFA2BF00B36823 /* BLE.swift */; };
+		646B79E220DFA2BF00B36823 /* BLETableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79DA20DFA2BF00B36823 /* BLETableViewController.swift */; };
+		646B79E320DFA2BF00B36823 /* BLECell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79DB20DFA2BF00B36823 /* BLECell.swift */; };
+		646B79E420DFA2BF00B36823 /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79DC20DFA2BF00B36823 /* Accelerometer.swift */; };
+		646B79E520DFA2BF00B36823 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79DD20DFA2BF00B36823 /* Globals.swift */; };
+		646B79E620DFA2BF00B36823 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B79DE20DFA2BF00B36823 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		646B79C220DFA24600B36823 /* RoboTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		646B79C520DFA24600B36823 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		646B79C720DFA24600B36823 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		646B79CA20DFA24600B36823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		646B79CC20DFA24600B36823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		646B79CF20DFA24600B36823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		646B79D120DFA24600B36823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646B79D720DFA2BE00B36823 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		646B79D820DFA2BF00B36823 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		646B79D920DFA2BF00B36823 /* BLE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLE.swift; sourceTree = "<group>"; };
+		646B79DA20DFA2BF00B36823 /* BLETableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLETableViewController.swift; sourceTree = "<group>"; };
+		646B79DB20DFA2BF00B36823 /* BLECell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLECell.swift; sourceTree = "<group>"; };
+		646B79DC20DFA2BF00B36823 /* Accelerometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accelerometer.swift; sourceTree = "<group>"; };
+		646B79DD20DFA2BF00B36823 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		646B79DE20DFA2BF00B36823 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				646B79C520DFA24600B36823 /* AppDelegate.swift */,
-				646B79C720DFA24600B36823 /* ViewController.swift */,
+				646B79DC20DFA2BF00B36823 /* Accelerometer.swift */,
+				646B79D820DFA2BF00B36823 /* BaseCell.swift */,
+				646B79D920DFA2BF00B36823 /* BLE.swift */,
+				646B79DB20DFA2BF00B36823 /* BLECell.swift */,
+				646B79DA20DFA2BF00B36823 /* BLETableViewController.swift */,
+				646B79DE20DFA2BF00B36823 /* Extensions.swift */,
+				646B79DD20DFA2BF00B36823 /* Globals.swift */,
+				646B79D720DFA2BE00B36823 /* HomeViewController.swift */,
 				646B79C920DFA24600B36823 /* Main.storyboard */,
 				646B79CC20DFA24600B36823 /* Assets.xcassets */,
 				646B79CE20DFA24600B36823 /* LaunchScreen.storyboard */,
@@ -136,8 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				646B79C820DFA24600B36823 /* ViewController.swift in Sources */,
 				646B79C620DFA24600B36823 /* AppDelegate.swift in Sources */,
+				646B79E620DFA2BF00B36823 /* Extensions.swift in Sources */,
+				646B79E020DFA2BF00B36823 /* BaseCell.swift in Sources */,
+				646B79DF20DFA2BF00B36823 /* HomeViewController.swift in Sources */,
+				646B79E220DFA2BF00B36823 /* BLETableViewController.swift in Sources */,
+				646B79E520DFA2BF00B36823 /* Globals.swift in Sources */,
+				646B79E420DFA2BF00B36823 /* Accelerometer.swift in Sources */,
+				646B79E120DFA2BF00B36823 /* BLE.swift in Sources */,
+				646B79E320DFA2BF00B36823 /* BLECell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
