@@ -1,0 +1,6 @@
+framework module Pods_RoboTooth {
+  umbrella header "Pods-RoboTooth-umbrella.h"
+
+  export *
+  module * { export * }
+}

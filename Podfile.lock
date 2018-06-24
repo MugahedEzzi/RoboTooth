@@ -1,0 +1,12 @@
+PODS:
+  - SimpleAnimation (0.4.0)
+
+DEPENDENCIES:
+  - SimpleAnimation
+
+SPEC CHECKSUMS:
+  SimpleAnimation: a3473da5421c65100d68f98a44fc853b81091249
+
+PODFILE CHECKSUM: 41c6529d2cec87cfe9cf031646a03fbcd11fad48
+
+COCOAPODS: 1.4.0
