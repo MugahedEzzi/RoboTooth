@@ -71,6 +71,7 @@
                                                                 </state>
                                                                 <connections>
                                                                     <action selector="leftAction:" destination="Yht-6t-kKP" eventType="touchDown" id="uLq-QQ-tqD"/>
+                                                                    <action selector="resetLeftButtonsUI:" destination="Yht-6t-kKP" eventType="touchUpInside" id="9DU-uz-l6u"/>
                                                                     <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="e0T-sY-FUQ"/>
                                                                 </connections>
                                                             </button>
@@ -88,6 +89,7 @@
                                                                 <state key="normal" image="top-not-active"/>
                                                                 <connections>
                                                                     <action selector="forwardAction:" destination="Yht-6t-kKP" eventType="touchDown" id="AQY-PQ-Y7v"/>
+                                                                    <action selector="resetLeftButtonsUI:" destination="Yht-6t-kKP" eventType="touchUpInside" id="ykD-2I-GwA"/>
                                                                     <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="9YH-ri-FOC"/>
                                                                 </connections>
                                                             </button>
@@ -102,6 +104,7 @@
                                                                 </state>
                                                                 <connections>
                                                                     <action selector="backwardAction:" destination="Yht-6t-kKP" eventType="touchDown" id="Rdg-bU-peJ"/>
+                                                                    <action selector="resetLeftButtonsUI:" destination="Yht-6t-kKP" eventType="touchUpInside" id="Wxz-xc-5cJ"/>
                                                                     <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="y0z-DL-N0t"/>
                                                                 </connections>
                                                             </button>
@@ -120,6 +123,7 @@
                                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
+                                                                    <action selector="resetLeftButtonsUI:" destination="Yht-6t-kKP" eventType="touchUpInside" id="XJq-wc-W7A"/>
                                                                     <action selector="rightAction:" destination="Yht-6t-kKP" eventType="touchDown" id="yJt-xS-ZXo"/>
                                                                     <action selector="stopAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="lc6-ml-jdH"/>
                                                                 </connections>
@@ -145,11 +149,12 @@
                                                                     <constraint firstAttribute="width" constant="70" id="1wr-8o-ySv"/>
                                                                     <constraint firstAttribute="height" constant="70" id="uYH-tS-OWM"/>
                                                                 </constraints>
-                                                                <state key="normal" image="x-active">
+                                                                <state key="normal" image="x-not-active">
                                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
-                                                                    <action selector="xAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="60e-Bl-YZe"/>
+                                                                    <action selector="resetRightButtonsUI:" destination="Yht-6t-kKP" eventType="touchUpInside" id="wn4-og-2Qc"/>
+                                                                    <action selector="xAction:" destination="Yht-6t-kKP" eventType="touchDown" id="BIN-o6-k01"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -163,9 +168,10 @@
                                                                     <constraint firstAttribute="height" constant="70" id="JW5-2e-Hfl"/>
                                                                     <constraint firstAttribute="width" constant="70" id="PvE-FQ-chu"/>
                                                                 </constraints>
-                                                                <state key="normal" image="y-active"/>
+                                                                <state key="normal" image="y-not-active"/>
                                                                 <connections>
-                                                                    <action selector="yAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="GRM-ci-lDA"/>
+                                                                    <action selector="resetRightButtonsUI:" destination="Yht-6t-kKP" eventType="touchUpInside" id="Gri-4r-xs0"/>
+                                                                    <action selector="yAction:" destination="Yht-6t-kKP" eventType="touchDown" id="bvw-ig-XZe"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A7-Oq-yfH">
@@ -174,11 +180,12 @@
                                                                     <constraint firstAttribute="width" constant="70" id="BgF-wx-Yfn"/>
                                                                     <constraint firstAttribute="height" constant="70" id="jI7-eF-JC8"/>
                                                                 </constraints>
-                                                                <state key="normal" image="a-active">
+                                                                <state key="normal" image="a-not-active">
                                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
-                                                                    <action selector="aAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="bx8-LS-g4p"/>
+                                                                    <action selector="aAction:" destination="Yht-6t-kKP" eventType="touchDown" id="ql3-5G-bpt"/>
+                                                                    <action selector="resetRightButtonsUI:" destination="Yht-6t-kKP" eventType="touchUpInside" id="Jv5-Qa-l7q"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -192,11 +199,12 @@
                                                                     <constraint firstAttribute="width" constant="70" id="FyA-FU-SlQ"/>
                                                                     <constraint firstAttribute="height" constant="70" id="y6o-A8-mnW"/>
                                                                 </constraints>
-                                                                <state key="normal" image="b-active">
+                                                                <state key="normal" image="b-not-active">
                                                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
-                                                                    <action selector="bAction:" destination="Yht-6t-kKP" eventType="touchUpInside" id="Jfg-4N-Mn6"/>
+                                                                    <action selector="bAction:" destination="Yht-6t-kKP" eventType="touchDown" id="Srt-vg-cft"/>
+                                                                    <action selector="resetRightButtonsUI:" destination="Yht-6t-kKP" eventType="touchUpInside" id="Xfl-VL-2za"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -437,8 +445,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="a-active" width="116" height="116"/>
-        <image name="b-active" width="116" height="116"/>
+        <image name="a-not-active" width="116" height="116"/>
+        <image name="b-not-active" width="116" height="116"/>
         <image name="background" width="812" height="375"/>
         <image name="bar" width="812" height="5"/>
         <image name="bottom-not-active" width="117" height="117"/>
@@ -449,7 +457,7 @@
         <image name="robot" width="505" height="505"/>
         <image name="search" width="40" height="40"/>
         <image name="top-not-active" width="117" height="117"/>
-        <image name="x-active" width="116" height="116"/>
-        <image name="y-active" width="116" height="116"/>
+        <image name="x-not-active" width="116" height="116"/>
+        <image name="y-not-active" width="116" height="116"/>
     </resources>
 </document>

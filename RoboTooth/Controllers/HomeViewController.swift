@@ -103,29 +103,50 @@ class HomeViewController: UIViewController {
         serial.sendBytesToDevice(bytes: [100])
     }
     
-    
     @IBAction func xAction(_ sender: UIButton) {
         guard serial.isReady else { return }
         sender.popIn()
         serial.sendBytesToDevice(bytes: [75])
+        xButtonOutlet.imageView?.image = #imageLiteral(resourceName: "x-active")
     }
     
     @IBAction func aAction(_ sender: UIButton) {
         guard serial.isReady else { return }
         sender.popIn()
         serial.sendBytesToDevice(bytes: [75])
+        aButtonOutlet.imageView?.image = #imageLiteral(resourceName: "a-active")
     }
     
     @IBAction func bAction(_ sender: UIButton) {
         guard serial.isReady else { return }
         sender.popIn()
         serial.sendBytesToDevice(bytes: [75])
+        bButtonOutlet.imageView?.image = #imageLiteral(resourceName: "b-active")
     }
     
     @IBAction func yAction(_ sender: UIButton) {
         guard serial.isReady else { return }
         sender.popIn()
         serial.sendBytesToDevice(bytes: [75])
+        yButtonOutlet.imageView?.image = #imageLiteral(resourceName: "y-active")
+    }
+    
+    @IBAction func resetRightButtonsUI(_ sender: UIButton) {
+        yButtonOutlet.imageView?.image = #imageLiteral(resourceName: "y-not-active")
+        bButtonOutlet.imageView?.image = #imageLiteral(resourceName: "b-not-active")
+        aButtonOutlet.imageView?.image = #imageLiteral(resourceName: "a-not-active")
+        xButtonOutlet.imageView?.image = #imageLiteral(resourceName: "x-not-active")
+        
+        sender.popIn()
+    }
+    
+    @IBAction func resetLeftButtonsUI(_ sender: UIButton) {
+        rightButtonOutlet.imageView?.image = #imageLiteral(resourceName: "right-not-active")
+        topButtonOutlet.imageView?.image = #imageLiteral(resourceName: "top-not-active")
+        bottomButtonOutlet.imageView?.image = #imageLiteral(resourceName: "bottom-not-active")
+        leftButtonOutlet.imageView?.image = #imageLiteral(resourceName: "left-not-active")
+        
+        sender.popIn()
     }
 }
 
