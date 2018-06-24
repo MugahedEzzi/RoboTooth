@@ -3,6 +3,7 @@ import Foundation
 import CoreMotion
 import CoreBluetooth
 import SimpleAnimation
+import RevealingSplashView
 
 class HomeViewController: UIViewController {
     // MARK: properties
@@ -49,26 +50,30 @@ class HomeViewController: UIViewController {
         serial = BLE(delegate: self)
         serial.writeType = .withoutResponse
         isReady = false
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         isReady = serial.isReady
+        showSplashScreen()
     }
     
-    //MARK: - Actions
+    // MARK: - UI
+    fileprivate func showSplashScreen() {
+        guard let window = UIApplication.shared.keyWindow else { return }
+        let revealingSplashView = RevealingSplashView(iconImage: #imageLiteral(resourceName: "robot"), iconInitialSize: CGSize(width: 150, height: 150), backgroundColor: UIColor(red: 249, green: 246, blue: 254, alpha: 1))
+        window.addSubview(revealingSplashView)
+        revealingSplashView.startAnimation() { }
+    }
+    
+    // MARK: - Actions
     @IBAction func disconnectBLE(_ sender: UIButton) {
         guard serial.isReady else { return }
         sender.popIn()
         serial.disconnect()
     }
     
-    @IBAction func bombAction(_ sender: UIButton) {
-        guard serial.isReady else { return }
-        sender.popIn()
-        serial.sendBytesToDevice(bytes: [95])
-    }
-   
     @IBAction func rightAction(_ sender: UIButton) {
         guard serial.isReady else { return }
         sender.popIn()
