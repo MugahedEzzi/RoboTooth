@@ -7,91 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0674B417508F457BB7E7A291BECDF6B5 /* Pods-RoboTooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D5F2A3B946AA459B443FD333331198 /* Pods-RoboTooth-dummy.m */; };
-		08CD55C70398B15B707B088849B1A435 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 63EA796AEF03B6938DC37FB537D98C77 /* Info.plist */; };
-		3FD5FA81D5F69E3E88820043D1499E5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		78998872E5568E4EAED84FDC976458C1 /* SimpleAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364EB3F1271342C392E03365E833BB1 /* SimpleAnimation-dummy.m */; };
-		8816FC0CB4740B778F54F1B2253FFCB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		A16D26DFCAE32C5C1ECEB0B0223A2F9F /* UIView+SimpleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130316EE4AD1A44C14ECDF559305D9B6 /* UIView+SimpleAnimation.swift */; };
-		AC6E6A5B474DA2D203E41BB3E34520E9 /* Pods-RoboTooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDEF71B15A60D1F99BDCD76ACC9A9D5 /* Pods-RoboTooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E79D4B1B5B45E929192519C5C65A1247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		FB0E0187C1FE556389FDCB94CA79F8C6 /* SimpleAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A56D6BF3BE11B9845B21FE0789C040 /* SimpleAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25B3A830019B1C9F7F1E858C0B144884 /* Pods-RoboTooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D5F2A3B946AA459B443FD333331198 /* Pods-RoboTooth-dummy.m */; };
+		2B35261C30E50F6B3892D92A2469A24D /* SimpleAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F6FE14506D993AB94BD85626D8721A5 /* SimpleAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39ACA87847016D98F025230672380669 /* SplashAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5B0880646775EBEE54DBA4C6BF6D5 /* SplashAnimationType.swift */; };
+		447C825E707965F5322823CB829BA1B8 /* SplashAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253D3196963A3A14EAA4A8235FC262B2 /* SplashAnimatable.swift */; };
+		4DD33A70267878ABB1A43C279D5889D5 /* RevealingSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE8FF822A27C0C0271FABFB18BA65EF /* RevealingSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EBDE3B356E1A1A3459CFA1BC30B52B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		78E3DF04663637E9B56B0976B27C637C /* Pods-RoboTooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDEF71B15A60D1F99BDCD76ACC9A9D5 /* Pods-RoboTooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D2562E1A5C60D9F981D68029BA29A98 /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0FB7EAF4FF28CA2C56CCE69615F09B /* RevealingSplashView.swift */; };
+		81774C16DC8C4A0BCC1E57E52F79798D /* RevealingSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F913818B63787AADACD67E9D974B67B7 /* RevealingSplashView-dummy.m */; };
+		96DC34359DE141992B52092C22E35391 /* SimpleAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9E6FB38A60639732289138CE0EBB18 /* SimpleAnimation-dummy.m */; };
+		99D15DAC6FB886334CE939CA67D73A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A25F445B748A467FE4F49B0B12D19DD0 /* RevealingSplashView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34383C79F8DAAF76F89B04FF72261169 /* RevealingSplashView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADDC35ECBB05BDF40FB895237865FD57 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 29457B150CA46D42CC8FDF7386388766 /* Info.plist */; };
+		C13FB1A0771BAA45ACE8060CF19B05F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		C205873041B929629BC4439B5E385A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C8924E93FFA97D32FFD0914A939C6704 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5388CEE824FB85F53A12E3EB7C99F7B3 /* Animations.swift */; };
+		E4DFD37241F31BC1E1F2EE72A0D673C8 /* UIView+SimpleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F27007EDADB907530E735FCD37AE3A7 /* UIView+SimpleAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		27D2D07ABC802056833B8D44D68D2E14 /* PBXContainerItemProxy */ = {
+		A3861D9F049CDFBFE7402C0ACDDAA96C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 64C06FD46668B0CBE0C9CCE26B337EE4;
+			remoteGlobalIDString = FB7D01C7248FDEB36ADDAD0A3C3D9301;
 			remoteInfo = SimpleAnimation;
+		};
+		BA3327496605DFF39893FDA9A7DDDFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167C4D1CF583AF85BC972F79F4F5C67A;
+			remoteInfo = RevealingSplashView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		130316EE4AD1A44C14ECDF559305D9B6 /* UIView+SimpleAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SimpleAnimation.swift"; path = "Source/UIView+SimpleAnimation.swift"; sourceTree = "<group>"; };
 		1A50DAE1E17A71E8F4C97590023CD96C /* Pods-RoboTooth-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoboTooth-frameworks.sh"; sourceTree = "<group>"; };
-		20D951CAFD5EA3E1DFAE54E242A0C8F1 /* Pods_RoboTooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RoboTooth.framework; path = "Pods-RoboTooth.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		253D3196963A3A14EAA4A8235FC262B2 /* SplashAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimatable.swift; path = RevealingSplashView/SplashAnimatable.swift; sourceTree = "<group>"; };
+		25F3A4775DA16FA8C168C4D89382D353 /* RevealingSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevealingSplashView.xcconfig; sourceTree = "<group>"; };
+		29457B150CA46D42CC8FDF7386388766 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
+		2F6FE14506D993AB94BD85626D8721A5 /* SimpleAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleAnimation-umbrella.h"; sourceTree = "<group>"; };
+		34383C79F8DAAF76F89B04FF72261169 /* RevealingSplashView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-umbrella.h"; sourceTree = "<group>"; };
 		37D5F2A3B946AA459B443FD333331198 /* Pods-RoboTooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoboTooth-dummy.m"; sourceTree = "<group>"; };
+		388CE5B37BC19C3EE6C2860A6701C6E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B4E5D4C6825554315A7FD0D773D0ECB /* Pods-RoboTooth-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoboTooth-resources.sh"; sourceTree = "<group>"; };
-		4620FB8EC7E2B3BD86D7A4D5D9359A15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56E6D73B26757E55738129EB28CEC938 /* SimpleAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleAnimation.modulemap; sourceTree = "<group>"; };
+		3F27007EDADB907530E735FCD37AE3A7 /* UIView+SimpleAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SimpleAnimation.swift"; path = "Source/UIView+SimpleAnimation.swift"; sourceTree = "<group>"; };
+		4283C241D3CD00185A9F6B8CDDA39B7F /* RevealingSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-prefix.pch"; sourceTree = "<group>"; };
+		4F4FEB827A7551E3CD9BB46E059B6B5B /* SimpleAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleAnimation-prefix.pch"; sourceTree = "<group>"; };
+		4F9F87EBF684FA1024EA3DBB13824D32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5388CEE824FB85F53A12E3EB7C99F7B3 /* Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animations.swift; path = RevealingSplashView/Animations.swift; sourceTree = "<group>"; };
 		5D809D25169D2B9EA0BE28180A614CE8 /* Pods-RoboTooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoboTooth.release.xcconfig"; sourceTree = "<group>"; };
-		61600465236F36BBCAC5CB753780F7FC /* SimpleAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleAnimation.framework; path = SimpleAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63EA796AEF03B6938DC37FB537D98C77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
+		6B9E6FB38A60639732289138CE0EBB18 /* SimpleAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleAnimation-dummy.m"; sourceTree = "<group>"; };
+		6C0FB7EAF4FF28CA2C56CCE69615F09B /* RevealingSplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RevealingSplashView.swift; path = RevealingSplashView/RevealingSplashView.swift; sourceTree = "<group>"; };
 		7DDEF71B15A60D1F99BDCD76ACC9A9D5 /* Pods-RoboTooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RoboTooth-umbrella.h"; sourceTree = "<group>"; };
-		9364EB3F1271342C392E03365E833BB1 /* SimpleAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleAnimation-dummy.m"; sourceTree = "<group>"; };
+		81013E0E001D297B797D22FC4D9BB2DB /* SimpleAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleAnimation.framework; path = SimpleAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96729F21ED095AD7FA83A04106BEBF91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7E4EB38E2C65EE04BA31C4FD4EA6DF8 /* SimpleAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleAnimation.xcconfig; sourceTree = "<group>"; };
+		9BE8FF822A27C0C0271FABFB18BA65EF /* RevealingSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevealingSplashView.h; path = RevealingSplashView/RevealingSplashView.h; sourceTree = "<group>"; };
+		A2D3E8702CDFFA5EEC41324444D85A4C /* SimpleAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleAnimation.xcconfig; sourceTree = "<group>"; };
 		B1EF4F83276F2B87E98442774236014D /* Pods-RoboTooth-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoboTooth-acknowledgements.plist"; sourceTree = "<group>"; };
 		B479D72221EF26CFA2DB171C7FD297FC /* Pods-RoboTooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoboTooth.debug.xcconfig"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C2A56D6BF3BE11B9845B21FE0789C040 /* SimpleAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleAnimation-umbrella.h"; sourceTree = "<group>"; };
+		C2C5B0880646775EBEE54DBA4C6BF6D5 /* SplashAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimationType.swift; path = RevealingSplashView/SplashAnimationType.swift; sourceTree = "<group>"; };
+		C30A2241BE48CE2E04B72EE723182650 /* Pods_RoboTooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RoboTooth.framework; path = "Pods-RoboTooth.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68A8004B0AA39ADD1E9B8F657E34489 /* Pods-RoboTooth-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RoboTooth-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D406DFC87AD16510E46BFBD9A1B17BB1 /* SimpleAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleAnimation-prefix.pch"; sourceTree = "<group>"; };
+		D6140554C63405EF051851A73A7E4AA8 /* SimpleAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleAnimation.modulemap; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E1A95163A82766385768BC75DA469480 /* RevealingSplashView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevealingSplashView.framework; path = RevealingSplashView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80F349D53938FD57546597556261F21 /* Pods-RoboTooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RoboTooth.modulemap"; sourceTree = "<group>"; };
+		E96E6C519E5BD6A0DA1191DC7632FA2D /* RevealingSplashView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RevealingSplashView.modulemap; sourceTree = "<group>"; };
+		F913818B63787AADACD67E9D974B67B7 /* RevealingSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevealingSplashView-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0D4E0DB89DC2B469E2559F1CCD4DEAD3 /* Frameworks */ = {
+		766D910B1ADD97BA50EC7C0AD748C1A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E79D4B1B5B45E929192519C5C65A1247 /* Foundation.framework in Frameworks */,
+				6EBDE3B356E1A1A3459CFA1BC30B52B5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE8FED1534253594E7D0D64B0406B9C4 /* Frameworks */ = {
+		C7D64E5624650484DC90D050EA003243 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8816FC0CB4740B778F54F1B2253FFCB8 /* Foundation.framework in Frameworks */,
-				3FD5FA81D5F69E3E88820043D1499E5C /* UIKit.framework in Frameworks */,
+				C205873041B929629BC4439B5E385A64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCB23CD58DE918D1551491B23F29AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D15DAC6FB886334CE939CA67D73A7A /* Foundation.framework in Frameworks */,
+				C13FB1A0771BAA45ACE8060CF19B05F1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1889D76E94D9DC809FA6A2D2E35C262D /* SimpleAnimation */ = {
+		221A41DA97B8CF861552E649B9300D12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63EA796AEF03B6938DC37FB537D98C77 /* Info.plist */,
-				130316EE4AD1A44C14ECDF559305D9B6 /* UIView+SimpleAnimation.swift */,
-				C32121A9B3FB58A70DE5F1DBD822057F /* Support Files */,
+				C30A2241BE48CE2E04B72EE723182650 /* Pods_RoboTooth.framework */,
+				E1A95163A82766385768BC75DA469480 /* RevealingSplashView.framework */,
+				81013E0E001D297B797D22FC4D9BB2DB /* SimpleAnimation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A82A65BDC2A54668A38E04DEC5896A7 /* SimpleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				29457B150CA46D42CC8FDF7386388766 /* Info.plist */,
+				3F27007EDADB907530E735FCD37AE3A7 /* UIView+SimpleAnimation.swift */,
+				83D3037614033F2AE44892CDD6266D01 /* Support Files */,
 			);
 			name = SimpleAnimation;
 			path = SimpleAnimation;
-			sourceTree = "<group>";
-		};
-		255ADAFBD08261E48515F5745B2F9E54 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1889D76E94D9DC809FA6A2D2E35C262D /* SimpleAnimation */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -119,38 +156,66 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7A1E2249BE7454A1CE0DDBE2A0B216CA /* RevealingSplashView */ = {
+			isa = PBXGroup;
+			children = (
+				5388CEE824FB85F53A12E3EB7C99F7B3 /* Animations.swift */,
+				9BE8FF822A27C0C0271FABFB18BA65EF /* RevealingSplashView.h */,
+				6C0FB7EAF4FF28CA2C56CCE69615F09B /* RevealingSplashView.swift */,
+				253D3196963A3A14EAA4A8235FC262B2 /* SplashAnimatable.swift */,
+				C2C5B0880646775EBEE54DBA4C6BF6D5 /* SplashAnimationType.swift */,
+				CCCD5D25BDE018B66A8C38729BB62AE3 /* Support Files */,
+			);
+			name = RevealingSplashView;
+			path = RevealingSplashView;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				255ADAFBD08261E48515F5745B2F9E54 /* Pods */,
-				C67EE23DE0F00472F709E4875FBA8DE3 /* Products */,
+				B22A2B21A9243768DD1293041E3DFE57 /* Pods */,
+				221A41DA97B8CF861552E649B9300D12 /* Products */,
 				793FAD1C3EA66E14124812430DAACE7F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		C32121A9B3FB58A70DE5F1DBD822057F /* Support Files */ = {
+		83D3037614033F2AE44892CDD6266D01 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4620FB8EC7E2B3BD86D7A4D5D9359A15 /* Info.plist */,
-				56E6D73B26757E55738129EB28CEC938 /* SimpleAnimation.modulemap */,
-				A7E4EB38E2C65EE04BA31C4FD4EA6DF8 /* SimpleAnimation.xcconfig */,
-				9364EB3F1271342C392E03365E833BB1 /* SimpleAnimation-dummy.m */,
-				D406DFC87AD16510E46BFBD9A1B17BB1 /* SimpleAnimation-prefix.pch */,
-				C2A56D6BF3BE11B9845B21FE0789C040 /* SimpleAnimation-umbrella.h */,
+				4F9F87EBF684FA1024EA3DBB13824D32 /* Info.plist */,
+				D6140554C63405EF051851A73A7E4AA8 /* SimpleAnimation.modulemap */,
+				A2D3E8702CDFFA5EEC41324444D85A4C /* SimpleAnimation.xcconfig */,
+				6B9E6FB38A60639732289138CE0EBB18 /* SimpleAnimation-dummy.m */,
+				4F4FEB827A7551E3CD9BB46E059B6B5B /* SimpleAnimation-prefix.pch */,
+				2F6FE14506D993AB94BD85626D8721A5 /* SimpleAnimation-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SimpleAnimation";
 			sourceTree = "<group>";
 		};
-		C67EE23DE0F00472F709E4875FBA8DE3 /* Products */ = {
+		B22A2B21A9243768DD1293041E3DFE57 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				20D951CAFD5EA3E1DFAE54E242A0C8F1 /* Pods_RoboTooth.framework */,
-				61600465236F36BBCAC5CB753780F7FC /* SimpleAnimation.framework */,
+				7A1E2249BE7454A1CE0DDBE2A0B216CA /* RevealingSplashView */,
+				2A82A65BDC2A54668A38E04DEC5896A7 /* SimpleAnimation */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCCD5D25BDE018B66A8C38729BB62AE3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				388CE5B37BC19C3EE6C2860A6701C6E9 /* Info.plist */,
+				E96E6C519E5BD6A0DA1191DC7632FA2D /* RevealingSplashView.modulemap */,
+				25F3A4775DA16FA8C168C4D89382D353 /* RevealingSplashView.xcconfig */,
+				F913818B63787AADACD67E9D974B67B7 /* RevealingSplashView-dummy.m */,
+				4283C241D3CD00185A9F6B8CDDA39B7F /* RevealingSplashView-prefix.pch */,
+				34383C79F8DAAF76F89B04FF72261169 /* RevealingSplashView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RevealingSplashView";
 			sourceTree = "<group>";
 		};
 		D40781FAE7EE8F99397C12B5CB31C5F4 /* Pods-RoboTooth */ = {
@@ -174,32 +239,77 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5AD4B933AC5AA4FB3F054A76769CB9ED /* Headers */ = {
+		5CB53E249D3C3AF613D21A9552CEA36F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC6E6A5B474DA2D203E41BB3E34520E9 /* Pods-RoboTooth-umbrella.h in Headers */,
+				A25F445B748A467FE4F49B0B12D19DD0 /* RevealingSplashView-umbrella.h in Headers */,
+				4DD33A70267878ABB1A43C279D5889D5 /* RevealingSplashView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98ED586F48D25EF712A3BBF64139A615 /* Headers */ = {
+		CDD538E2DD2454F8D577703E2E26B53A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB0E0187C1FE556389FDCB94CA79F8C6 /* SimpleAnimation-umbrella.h in Headers */,
+				78E3DF04663637E9B56B0976B27C637C /* Pods-RoboTooth-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE42DD6F6E8E697022DAA8175B62E2D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B35261C30E50F6B3892D92A2469A24D /* SimpleAnimation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		64C06FD46668B0CBE0C9CCE26B337EE4 /* SimpleAnimation */ = {
+		167C4D1CF583AF85BC972F79F4F5C67A /* RevealingSplashView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 160802C03C7E10543A89AA7CC2C6F0EA /* Build configuration list for PBXNativeTarget "SimpleAnimation" */;
+			buildConfigurationList = 26D1BE07BE89728C2D72B403F4CCB766 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */;
 			buildPhases = (
-				DF30B4B12A519CEC529AD356674F86D1 /* Sources */,
-				BE8FED1534253594E7D0D64B0406B9C4 /* Frameworks */,
-				98ED586F48D25EF712A3BBF64139A615 /* Headers */,
+				5F9A30568EC22A815A903B67118A9D4E /* Sources */,
+				766D910B1ADD97BA50EC7C0AD748C1A8 /* Frameworks */,
+				5CB53E249D3C3AF613D21A9552CEA36F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevealingSplashView;
+			productName = RevealingSplashView;
+			productReference = E1A95163A82766385768BC75DA469480 /* RevealingSplashView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BCD5BB442FEEFDED5FAE0AC3A26D39C3 /* Pods-RoboTooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D5BCDEF313C23344DB023F0B90F52D /* Build configuration list for PBXNativeTarget "Pods-RoboTooth" */;
+			buildPhases = (
+				FA975BA79E9E66E22B6AAE8AE63DAC55 /* Sources */,
+				C7D64E5624650484DC90D050EA003243 /* Frameworks */,
+				CDD538E2DD2454F8D577703E2E26B53A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D8F375D616F89B0AEF703E6B744B442 /* PBXTargetDependency */,
+				B6C62710CF2F9563705A96A2A1F8FA19 /* PBXTargetDependency */,
+			);
+			name = "Pods-RoboTooth";
+			productName = "Pods-RoboTooth";
+			productReference = C30A2241BE48CE2E04B72EE723182650 /* Pods_RoboTooth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB7D01C7248FDEB36ADDAD0A3C3D9301 /* SimpleAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25E6157F0ECF9D86D6B3ECC90F81CD7 /* Build configuration list for PBXNativeTarget "SimpleAnimation" */;
+			buildPhases = (
+				E2177EC46427A391E43FA94BCBF40282 /* Sources */,
+				ECCB23CD58DE918D1551491B23F29AFC /* Frameworks */,
+				FE42DD6F6E8E697022DAA8175B62E2D9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -207,25 +317,7 @@
 			);
 			name = SimpleAnimation;
 			productName = SimpleAnimation;
-			productReference = 61600465236F36BBCAC5CB753780F7FC /* SimpleAnimation.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A41FAAE29BBEA9DD09E1122C46530A95 /* Pods-RoboTooth */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E0923A2AA352249847430D78425CF11 /* Build configuration list for PBXNativeTarget "Pods-RoboTooth" */;
-			buildPhases = (
-				5B295C1959FF3C7CAAD494FC733FA358 /* Sources */,
-				0D4E0DB89DC2B469E2559F1CCD4DEAD3 /* Frameworks */,
-				5AD4B933AC5AA4FB3F054A76769CB9ED /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8BBBBE5146F0E9DA832E4E1C76CE95D6 /* PBXTargetDependency */,
-			);
-			name = "Pods-RoboTooth";
-			productName = "Pods-RoboTooth";
-			productReference = 20D951CAFD5EA3E1DFAE54E242A0C8F1 /* Pods_RoboTooth.framework */;
+			productReference = 81013E0E001D297B797D22FC4D9BB2DB /* SimpleAnimation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -245,52 +337,70 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C67EE23DE0F00472F709E4875FBA8DE3 /* Products */;
+			productRefGroup = 221A41DA97B8CF861552E649B9300D12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A41FAAE29BBEA9DD09E1122C46530A95 /* Pods-RoboTooth */,
-				64C06FD46668B0CBE0C9CCE26B337EE4 /* SimpleAnimation */,
+				BCD5BB442FEEFDED5FAE0AC3A26D39C3 /* Pods-RoboTooth */,
+				167C4D1CF583AF85BC972F79F4F5C67A /* RevealingSplashView */,
+				FB7D01C7248FDEB36ADDAD0A3C3D9301 /* SimpleAnimation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5B295C1959FF3C7CAAD494FC733FA358 /* Sources */ = {
+		5F9A30568EC22A815A903B67118A9D4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0674B417508F457BB7E7A291BECDF6B5 /* Pods-RoboTooth-dummy.m in Sources */,
+				C8924E93FFA97D32FFD0914A939C6704 /* Animations.swift in Sources */,
+				81774C16DC8C4A0BCC1E57E52F79798D /* RevealingSplashView-dummy.m in Sources */,
+				7D2562E1A5C60D9F981D68029BA29A98 /* RevealingSplashView.swift in Sources */,
+				447C825E707965F5322823CB829BA1B8 /* SplashAnimatable.swift in Sources */,
+				39ACA87847016D98F025230672380669 /* SplashAnimationType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF30B4B12A519CEC529AD356674F86D1 /* Sources */ = {
+		E2177EC46427A391E43FA94BCBF40282 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08CD55C70398B15B707B088849B1A435 /* Info.plist in Sources */,
-				78998872E5568E4EAED84FDC976458C1 /* SimpleAnimation-dummy.m in Sources */,
-				A16D26DFCAE32C5C1ECEB0B0223A2F9F /* UIView+SimpleAnimation.swift in Sources */,
+				ADDC35ECBB05BDF40FB895237865FD57 /* Info.plist in Sources */,
+				96DC34359DE141992B52092C22E35391 /* SimpleAnimation-dummy.m in Sources */,
+				E4DFD37241F31BC1E1F2EE72A0D673C8 /* UIView+SimpleAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA975BA79E9E66E22B6AAE8AE63DAC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B3A830019B1C9F7F1E858C0B144884 /* Pods-RoboTooth-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8BBBBE5146F0E9DA832E4E1C76CE95D6 /* PBXTargetDependency */ = {
+		8D8F375D616F89B0AEF703E6B744B442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RevealingSplashView;
+			target = 167C4D1CF583AF85BC972F79F4F5C67A /* RevealingSplashView */;
+			targetProxy = BA3327496605DFF39893FDA9A7DDDFBC /* PBXContainerItemProxy */;
+		};
+		B6C62710CF2F9563705A96A2A1F8FA19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleAnimation;
-			target = 64C06FD46668B0CBE0C9CCE26B337EE4 /* SimpleAnimation */;
-			targetProxy = 27D2D07ABC802056833B8D44D68D2E14 /* PBXContainerItemProxy */;
+			target = FB7D01C7248FDEB36ADDAD0A3C3D9301 /* SimpleAnimation */;
+			targetProxy = A3861D9F049CDFBFE7402C0ACDDAA96C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AFFA837A63CCD58D480C3F95E6DEAB1 /* Release */ = {
+		0757ABFB8ADE1EE9189F8814486543D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D809D25169D2B9EA0BE28180A614CE8 /* Pods-RoboTooth.release.xcconfig */;
+			baseConfigurationReference = A2D3E8702CDFFA5EEC41324444D85A4C /* SimpleAnimation.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -300,26 +410,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RoboTooth/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleAnimation/SimpleAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleAnimation/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RoboTooth/Pods-RoboTooth.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RoboTooth;
+				MODULEMAP_FILE = "Target Support Files/SimpleAnimation/SimpleAnimation.modulemap";
+				PRODUCT_NAME = SimpleAnimation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		13A95306D85E4471AB6BE665B012E60A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -384,9 +491,44 @@
 			};
 			name = Debug;
 		};
-		26F069C0CFB67E4E8AC0AA0E2B09EA10 /* Release */ = {
+		738F64BC5A3E4B1A83077702E121803A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7E4EB38E2C65EE04BA31C4FD4EA6DF8 /* SimpleAnimation.xcconfig */;
+			baseConfigurationReference = B479D72221EF26CFA2DB171C7FD297FC /* Pods-RoboTooth.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoboTooth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoboTooth/Pods-RoboTooth.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RoboTooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81A0B073B9D7C62938E0A323161892C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D3E8702CDFFA5EEC41324444D85A4C /* SimpleAnimation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -415,6 +557,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8C098A46E7AE4EB1E02A76FD92098ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F3A4775DA16FA8C168C4D89382D353 /* RevealingSplashView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				PRODUCT_NAME = RevealingSplashView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8E8333274F4AB64785B04AB5B2A37231 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -474,9 +647,9 @@
 			};
 			name = Release;
 		};
-		99C6D5C4BFA84E6CAE8317902876B6D1 /* Debug */ = {
+		B2D121A741AC3B90D3F35B197A33CCA5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7E4EB38E2C65EE04BA31C4FD4EA6DF8 /* SimpleAnimation.xcconfig */;
+			baseConfigurationReference = 25F3A4775DA16FA8C168C4D89382D353 /* RevealingSplashView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -487,27 +660,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SimpleAnimation/SimpleAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimpleAnimation/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimpleAnimation/SimpleAnimation.modulemap";
-				PRODUCT_NAME = SimpleAnimation;
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				PRODUCT_NAME = RevealingSplashView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		E61C3DCB5B191EEFB469BD0C87F8E85A /* Debug */ = {
+		F34F0D2969C4A5118A7F4C1DB046C29B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B479D72221EF26CFA2DB171C7FD297FC /* Pods-RoboTooth.debug.xcconfig */;
+			baseConfigurationReference = 5D809D25169D2B9EA0BE28180A614CE8 /* Pods-RoboTooth.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -532,22 +706,22 @@
 				PRODUCT_NAME = Pods_RoboTooth;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		160802C03C7E10543A89AA7CC2C6F0EA /* Build configuration list for PBXNativeTarget "SimpleAnimation" */ = {
+		26D1BE07BE89728C2D72B403F4CCB766 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99C6D5C4BFA84E6CAE8317902876B6D1 /* Debug */,
-				26F069C0CFB67E4E8AC0AA0E2B09EA10 /* Release */,
+				8C098A46E7AE4EB1E02A76FD92098ED8 /* Debug */,
+				B2D121A741AC3B90D3F35B197A33CCA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -561,11 +735,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E0923A2AA352249847430D78425CF11 /* Build configuration list for PBXNativeTarget "Pods-RoboTooth" */ = {
+		54D5BCDEF313C23344DB023F0B90F52D /* Build configuration list for PBXNativeTarget "Pods-RoboTooth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E61C3DCB5B191EEFB469BD0C87F8E85A /* Debug */,
-				0AFFA837A63CCD58D480C3F95E6DEAB1 /* Release */,
+				738F64BC5A3E4B1A83077702E121803A /* Debug */,
+				F34F0D2969C4A5118A7F4C1DB046C29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25E6157F0ECF9D86D6B3ECC90F81CD7 /* Build configuration list for PBXNativeTarget "SimpleAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0757ABFB8ADE1EE9189F8814486543D1 /* Debug */,
+				81A0B073B9D7C62938E0A323161892C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

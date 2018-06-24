@@ -1,12 +1,15 @@
 PODS:
+  - RevealingSplashView (0.5.0)
   - SimpleAnimation (0.4.0)
 
 DEPENDENCIES:
+  - RevealingSplashView
   - SimpleAnimation
 
 SPEC CHECKSUMS:
+  RevealingSplashView: 0794eecad3a8983ac11a1fe474e9a9b51b926780
   SimpleAnimation: a3473da5421c65100d68f98a44fc853b81091249
 
-PODFILE CHECKSUM: 41c6529d2cec87cfe9cf031646a03fbcd11fad48
+PODFILE CHECKSUM: 57b9a3a04d6b2f78d52a0a17d7a932a6648348bf
 
 COCOAPODS: 1.4.0
